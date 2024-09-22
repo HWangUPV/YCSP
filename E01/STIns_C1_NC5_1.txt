@@ -1,0 +1,40 @@
+YardCraneScheduling
+number of cranes
+1
+number of containers
+5
+number of rows
+10
+number of columns
+42
+number of tiers
+4
+number of I/O land
+1
+number of I/O sea
+2
+gantry speed
+1
+trolley speed
+1
+hoisting speed
+1
+reshuffling time
+2
+Crane Initial Position
+7	14	5
+I/O Land information
+#x,y,z
+4	43	2
+I/O Sea information
+#x,y,z
+4	0	1
+5	0	1
+Containers requests information
+#Containers requests information, one line per container
+#Type	TypeLoc	x	y	z	RS	rj	dj	ej	wj	wcongj
+1	D	4	6	2	0	15	-1	-1	1	1
+2	D	5	23	2	0	6	-1	-1	1	1
+1	D	2	37	4	0	12	-1	-1	1	1
+4	O	9	36	3	0	-1	-1	79	1	1
+4	O	1	39	3	0	-1	-1	83	1	1
